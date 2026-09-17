@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Users</h1>
+
+        <div class="search-box">
+
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search user..."
+            >
+
+            <select id="filterSelect">
+                <option value="age">age low high</option>
+                <option value="-age">age high to low</option>
+                <option value="-_id">Assending</option>
+                <option value="_id">Decending</option>
+            </select>
+
+            <button onclick="searchUsers()">Search</button>
+
+        </div>
+
+        <div id="usersContainer" class="users-container"></div>
+
+        <div class="pagination">
+
+            <button onclick="previousPage()">Previous</button>
+
+            <span id="pageNumber">Page 1</span>
+
+            <button onclick="nextPage()">Next</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
