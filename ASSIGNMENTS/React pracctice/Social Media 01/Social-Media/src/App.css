@@ -1,0 +1,39 @@
+.app-container{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 600px;
+}
+.post-card{
+  margin:20px 50px;
+  min-width: 30rem;
+
+}
+
+.hashtag{
+  margin-left: 3px;
+}
+
+.reactions{
+  width: 100%;
+  margin: 15px 0px 0px 0px;
+}
+
+.create-post{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.nullpost{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center ;
+  align-items: center;
+}
