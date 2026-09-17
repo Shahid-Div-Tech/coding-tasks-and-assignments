@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+.main{
+    margin:auto  ;
+    width: 30%;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 25px;
+    border-bottom: solid 5px lightblue;
+}

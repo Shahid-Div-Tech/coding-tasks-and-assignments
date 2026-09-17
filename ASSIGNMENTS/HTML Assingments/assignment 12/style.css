@@ -1,0 +1,111 @@
+div{
+     
+    margin-left: 500px;
+    background-color: whitesmoke;
+    width: 550px;
+    border: 2px double black;
+    height: 90vh;
+    border-radius: 20px;
+   
+}
+
+#name{
+    width: 450px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+}
+
+#adress{
+     width: 450px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+}
+
+#s-adress{
+     width: 450px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+}
+
+
+
+#region{
+     width: 210px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#cite{
+    width: 225px;
+    background-color: rgb(122, 215, 231);
+    height: 29px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+#email{
+      width: 212px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+   
+}
+
+#tel{
+    width: 212px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+
+#area{
+    width: 450px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+}
+
+#image{
+    width: 455px;
+    background-color: rgb(122, 215, 231);
+    height: 25px;
+    border: 1px solid rgb(37, 115, 163);
+    border-radius: 5px;
+}
+
+#submit{
+    height: 30px;
+    width: 80px;
+    border: 1px solid rgb(1, 83, 31);
+    border-radius: 15px;
+    background-color: lightgreen;
+    margin-left: 70px;
+}
+
+#reset{
+       height: 30px;
+    width: 80px;
+    border: 1px solid rgb(141, 22, 22);
+    border-radius: 15px;
+    background-color: rgb(236, 82, 82);
+    margin-left: 100px;
+     
+}
+
+
+

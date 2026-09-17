@@ -1,0 +1,597 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.section1{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo >ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+
+ul li{
+    list-style-type:none;
+     height: 100%;
+   
+    
+}
+
+.logo2{
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 >ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    
+}
+
+.section2{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: start;
+     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP2-859x540");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.section2 .child{
+      width: 350px;
+      margin-top: 50px;
+      margin-left: 40px;
+      padding-top: 10px;
+     display: flex;
+     flex-direction: column;
+     row-gap: 30px;
+}
+
+.child button{
+    background-color: #0067b8;
+    padding:9px 0px;
+    border: none;
+    color: white;
+    width: 150px;
+    
+}
+
+.section3{
+    margin-top: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section3 .item1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+}
+
+.item1 button{
+     background-color: #0067b8;
+    padding:9px 0px;
+    border: none;
+    color: white;
+    width: 160px;
+ 
+}
+
+.section4{
+    width: 100vw;
+     height: 540px;
+         margin-top: 40px;
+         display: flex;
+         justify-content: center;
+       
+}
+
+.section4 .child{
+    width: 86%;
+    height: 540px;
+       background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-PC-SMB-OneNote:VP2-859x540");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.child .items{
+    margin-right: 30px;
+    padding-top: 40px;
+    width: 500px;
+    height: 240px;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+row-gap: 20px;
+}
+
+
+.section5{
+    margin-top: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.section5 .item1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-bottom: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+}
+
+
+
+.section6{
+    margin-left: 25px;
+   
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+.section6 .child{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.section6 .h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.child2{
+    margin-right: 50px;
+    margin-top: 18px;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    
+ 
+}
+
+.child2 button{
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: lightgray;
+  
+    
+
+}
+
+.section7{
+    margin-top: 60px;
+    padding-bottom: 14px;
+    background-color: #f2f2f2;
+    
+}
+
+
+.section7 .child{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+
+}
+
+.section7 .one{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    row-gap: 20px;
+}
+
+.one>h4{
+    color: rgb(53, 53, 53);
+}
+
+.one p{
+    color: rgb(84, 83, 83);
+}
+
+.one p{
+    font-size: 12px;
+}
+
+.section7 .child2{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.child2 .first{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 10px;
+}
+
+.first p{
+    color: rgb(84, 83, 83);
+    font-size: 14px;
+}
+
+.child2 .second{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 10px;
+}
+
+
+
+.second p{
+    color: rgb(84, 83, 83);
+    font-size: 14px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 768px){
+
+    
+  .section1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    height: auto;
+    padding: 10px 0;
+    row-gap: 12px;
+}
+
+
+.logo,
+.logo2{
+    width: 500%;
+    display: flex;
+    justify-content: center;
+}
+
+    .logo img{
+        width: 70px;
+        height: auto;
+    }
+
+    .logo ul,
+    .logo2 ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .logo ul li,
+    .logo2 ul li{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .logo ul li{
+        display: none;
+    }
+
+  
+    .section2{
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+        background-position: center;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .section2 .child{
+        width: 40%;
+        margin: auto;
+        margin-left: 6px;
+        row-gap: 18px;
+        display: flex;
+        
+
+    }
+
+    .section2 .child h1{
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .section2 .child p{
+        font-size: 13px;
+        display: none;
+    }
+
+
+    .section2 .child button{
+        font-size:9px ;
+        width: 100px;
+    }
+
+   
+    .section3,
+    .section5{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+      
+    }
+
+    .section3 .item1,
+    .section5 .item1{
+        width: 90%;
+          padding-bottom: 7px;
+    }
+
+    .section3 button,.section5 button{
+          font-size:9px ;
+        width: 100px;
+    }
+
+  
+    .section4{
+        width: 100%;
+        height: auto;
+    }
+
+    .section4 .child{
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .child .items{
+        padding-top: 6px;
+        margin-left: -3px;
+        width: 70%;
+        height: auto;
+        row-gap: 5px;
+        padding-bottom: 7px;
+    }
+
+    .child .items button{
+        font-size:9px ;
+        width: 100px;
+    }
+
+   
+    .section6{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        margin-left: 0;        
+        padding-left: 0;
+    }
+
+    .child2{
+        margin: 0;
+    }
+
+    .section7 .child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 25px;
+    }
+
+    .section7 .child2{
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+ 
+    row-gap: 20px;
+    
+
+}
+
+
+.child2 .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    padding: 10px;
+}
+
+.first p{
+    color: rgb(84, 83, 83);
+    font-size: 12px;
+}
+
+.child2 .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    padding: 10px;
+}
+
+
+
+.second p{
+    color: rgb(84, 83, 83);
+    font-size: 12px;
+}
+
+
+}
+
+
+@media (max-width: 480px){
+
+    .logo ul li{
+        display: none;
+    }
+
+    .section2 .child h1{
+        font-size: 16px;
+    }
+
+    .section2 .child p{
+        display: none;
+    }
+
+    button{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+   
+    .section1{
+        width: 100%;
+        height: auto;
+        padding: 12px 0;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .logo,
+    .logo2{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo ul,
+    .logo2 ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .logo ul li,
+    .logo2 ul li{
+        font-size: 14px;
+    }
+
+  
+    .section2{
+        width: 100%;
+        height: 400px;
+        background-position: center;
+    }
+
+    .section2 .child{
+        width: 40%;
+        margin-left:7px;
+        row-gap: 35px;
+        
+    }
+
+
+    .section3,
+    .section5{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .section3 .item1,
+    .section5 .item1{
+        width: 45%;
+    }
+
+  
+    .section4 .child{
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .child .items{
+        width: 70%;
+    }
+
+    .section6{
+        width: 100%;
+        margin-left: 0;     
+        padding: 0 20px;
+    }
+
+  
+    .section7 .child{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .section7 .one{
+        width: 30%;
+    }
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    max-width: 100%;
+}

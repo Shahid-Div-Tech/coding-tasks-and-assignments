@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-container">
+      <h2>ID Card Generator</h2>
+
+      <label for="image">Insert your image</label>
+      <input type="url" id="image" />
+
+      <input type="text" placeholder="Enter your name" id="name" />
+      <input type="text" placeholder="Enter your father name" id="fathername" />
+      <input type="text" placeholder="Enter your CNIC" id="cnic" />
+      <input type="text" placeholder="Enter your course" id="course" />
+
+      <button onclick="generateCard()">Generate Card</button>
+    </div>
+
+    <div id="card_main_container"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

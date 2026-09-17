@@ -1,0 +1,282 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.container{
+    margin-top: 60px;
+    position: relative;
+    width: 639px;
+   height: 612px;
+   box-shadow: 10px 10px 10px black;
+  
+   
+}
+.main{
+    width: 700px;
+    display: flex;
+}
+
+
+.a1{
+    background-color: greenyellow;
+    width: 250px;
+    height: 250px;
+    border: 1px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a2{
+    width: 160px;
+    height: 160px;
+    
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+    
+}
+
+
+.a4{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.a3{
+    background-color: greenyellow;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 11px;
+    box-shadow: 4px 4px 6px black;
+}
+.a5{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.a6{
+    background-color: greenyellow;
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px 6px black;
+}
+
+table{
+   border: none;
+   border-collapse: collapse;
+}
+
+td,tr{
+    height: 20px;
+    width: 40px;
+    border-collapse: collapse;
+    border:3px solid black;
+    
+}
+
+.a8{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a9{
+    width: 160px;
+    height: 160px;
+    
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a10{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.a11{
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 11px;
+    box-shadow: 4px 4px 6px black;
+}
+
+.a12{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.a13{
+    background-color:yellow;
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px 6px black;
+}
+
+.tbl{
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    
+}
+.bbl{
+    width: 139px;
+    position: absolute;
+    top:250px ;
+    left: 250px;
+    height:110px ;
+}
+.tcl{
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+.main5{
+    width: 700px;
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left:0px ;
+}
+
+
+
+
+.b1{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2{
+    width: 160px;
+    height: 160px;
+    
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+    
+}
+
+
+.b4{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.b3{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 11px;
+    box-shadow: 4px 4px 6px black;
+}
+.b5{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.b6{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px 6px black;
+}
+
+
+.b8{
+    background-color:rgb(60, 60, 221) ;
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(60, 60, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b9{
+    width: 160px;
+    height: 160px;
+    
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b10{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.b11{
+    background-color: rgb(60, 60, 221);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 11px;
+    box-shadow: 4px 4px 6px black;
+}
+
+.b12{
+    width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.b13{
+    background-color:rgb(60, 60, 221);
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px 6px black;
+}

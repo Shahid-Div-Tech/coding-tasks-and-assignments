@@ -1,0 +1,33 @@
+*{
+    padding: 0x;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+#container img{
+    width: 400px;
+
+}
+
+#container button{
+    padding:20px 40px;
+    border: none;
+    background-color: #35bd3a;
+    border-right: 5px solid #01ab08;
+     border-bottom: 5px solid #01ab08;
+     border-radius: 5px;
+     color: white;
+     font-size: 20px;
+     cursor: pointer;
+}

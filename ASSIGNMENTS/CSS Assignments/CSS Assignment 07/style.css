@@ -1,0 +1,291 @@
+ body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    align-items: center;
+}
+p,i{
+    color: white;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+   
+    height: 800px;
+   
+    background: linear-gradient(to bottom, #663300 25%, #003300 100%);
+}
+
+.child{
+     width: 1000px;
+     text-align: center;
+     color: white;
+     padding-top: 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.para{
+    font-size: 25px;
+}
+button{
+    width: 110px;
+    height: 40px;
+    border:3px solid rgb(80, 80, 241);
+    border-radius: 20px;
+    background-color: rgb(80, 80, 241) ;
+    color: white;
+    cursor: pointer;
+}
+
+.but{
+    background-color:rgb(55, 26, 26);
+    color: white;
+}
+
+.but:hover{
+    background-color: rgb(80, 80, 241) ;
+    color: white;
+}
+
+img{
+    width: 900px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.kha{
+     color: linear-gradient(to bottom, #ff66ff 39%, #66ccff 100%);
+      font-size: 25px;
+}
+.para2{
+    color: rgb(115, 114, 114);
+    font-size: 20px;
+    
+} 
+
+.father{
+    height: 100vh;
+    background: linear-gradient(to bottom, #003399 39%, #ffffff 100%);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.children{
+    width: 900px;
+    text-align: center;
+}
+.khan{
+    color: white;
+    word-spacing: 8px;
+}
+
+
+.a1{
+    color:black;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.a2{
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(32, 32, 146);
+}
+
+.a2:hover{
+    background-color: white;
+    color: black;
+}
+
+.boxparent{
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.boxchild{
+      width:1000px ;
+      text-align: center;
+}
+.shahg{
+    color: white;
+    word-spacing: 8px;
+}
+
+.shaha{
+    color: gray;
+}
+.switch{
+    background-color: black;
+    color: #154094;
+    border: 2px solid #154094 ;
+}
+.switch:hover{
+    background-color:rgb(80, 80, 241);
+    color: white;
+}
+
+.id{
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ib{
+   width:49%;
+   
+   background-color: whitesmoke;
+   text-align: center;
+   padding-top: 60px;
+
+}
+
+.bi{
+
+    width:49%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+ 
+
+}
+
+.sahab{
+    border: 1px solid rgb(80, 80, 241);
+    color:rgb(80, 80, 241);
+    background-color: whitesmoke;
+
+}
+
+.sahab:hover{
+    background-color:rgb(80, 80, 241) ;
+    color: white;
+}
+#image{
+    width: 350px;
+}
+
+.ab{
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc{
+    padding-bottom :50px;
+    width:49%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+
+.ca{
+    width:49%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.da{
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.db{
+    padding-bottom :50px;
+    width:49%;
+    
+    background-color:whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+
+.dc{
+    width:49%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+
+}
+#color{
+    color: black;
+}
+
+#class{
+    width: 150px;
+}
+
+.marq{
+     display: flex;
+}
+
+.pics{
+    width: 350px;
+    height:150px;
+    border-radius: none;
+}
+
+.p1{
+    background: whitesmoke;
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.p2{
+    color: black;
+    opacity: 0.4;
+}
+.p3{
+    width: 90%;
+
+}
+
+.sub{
+  width: 1200px;
+  text-align: left;
+}
+
+table{
+   width: 1200px;
+}
+
+th,td{
+    word-spacing: 10px;
+    opacity: 0.6;
+}
+.baba{
+    color: black;
+    word-spacing: 7px;
+    opacity:0.5;
+}

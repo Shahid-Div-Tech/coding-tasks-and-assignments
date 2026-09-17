@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+
+}
+
+header img{
+    width: 40px;
+    
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+
+}
+
+ul li{
+    
+    list-style: none;
+    color: #492118;
+    font-size: 20.9px;
+}

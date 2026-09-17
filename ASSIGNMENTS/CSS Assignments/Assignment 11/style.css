@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.card1{
+    width:370px;
+    height: 230px;
+    border-radius: 10px;
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+background: linear-gradient(90deg,rgba(2, 47, 96, 1) 7%, rgba(0, 67, 119, 1) 38%);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card2{
+    width:370px;
+    height: 230px;
+    border-radius: 10px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: linear-gradient(90deg,rgba(2, 47, 96, 1) 7%, rgba(0, 67, 119, 1) 38%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.one{
+     padding-left: 4px;
+     padding-top: 7px;
+     text-align: center;
+}
+
+.one1{
+      background-color: black;
+      width: 370px;
+      height: 40px;
+      margin-top: 8px;
+}
+
+.two{
+       display: flex;
+       justify-content: space-between;
+}
+
+.first{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 4px;
+
+}
+
+.card1:hover{
+    transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card2:hover{
+       transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

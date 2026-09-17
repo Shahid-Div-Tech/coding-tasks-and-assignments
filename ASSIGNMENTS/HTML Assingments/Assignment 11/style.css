@@ -1,0 +1,41 @@
+td{
+   border: 1px solid black;
+    height: 10px;
+    width: 70px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 4px;
+}
+.mix{
+    border: none;
+    background-color: beige;
+}
+
+.num{
+ 
+  border: none;
+  text-align: center;
+  background-color: beige;
+ 
+    
+   
+}
+
+.logo{
+    font-size: medium;
+    font-weight: bold;
+  
+
+
+}
+
+
+
+
+.para{
+    font-size: 10px;
+}
+
+.name{
+    background-color: rgb(118, 219, 153);
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lost and Found</title>
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="report.css" />
+    <link rel="stylesheet" href="../home page/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="../assets/logo.png" alt="" />
+        </div>
+        <div class="page-list">
+          <ul>
+            <li><a href="../home page/index.html">Home</a></li>
+            <li><a href="../report item/report.html">Report Lost</a></li>
+            <li><a href="../report item/report.html">Report Found</a></li>
+          </ul>
+          <button>Hi, Shahid 👤</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Report <span>an</span> item</h2>
+      <p>Fill out the form below to report a lost or found item on campus</p>
+
+      <div id="detail">
+        <form id="reportForm">
+          <h3 class="container-headings">Report Type *</h3>
+          <select id="itemKind" class="status-select" style="margin-bottom: 20px; width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
+            <option value="lost">I lost something </option>
+            <option value="found">I found something </option>
+          </select>
+
+          <h3 class="container-headings">Item Name *</h3>
+          <input type="text" id="itemName" placeholder="e.g. ID card , Mobile, wallet" required />
+
+          <h3 class="container-headings">Description *</h3>
+          <textarea id="description" placeholder="Provide a detailed description of the item including color, brand, features" style="height: 100px;" required></textarea>
+
+          <h3 class="container-headings">Category *</h3>
+          <select id="category">
+            <option value="Electronics">Electronics</option>
+            <option value="Documents">Documents</option>
+            <option value="Personal Items">Personal Items</option>
+            <option value="Books">Books</option>
+          </select>
+
+          <div class="content1">
+            <div class="content1-1">
+              <h3 class="container-headings">Location *</h3>
+              <input type="text" id="locationName" placeholder="e.g. Library 2nd floor, Student Union" required/>
+            </div>
+            <div class="content1-2">
+              <h3 class="container-headings">Date *</h3>
+              <input type="date" id="itemDate" required />
+            </div>
+          </div>
+
+          <h3 class="container-headings">Upload Image </h3>
+          <input type="file" id="images" style="height:60px;" multiple accept="image/*"/>
+
+          <div class="content2">
+            <h3 class="container-headings">Contact Information</h3>
+            <div class="content2-inner">
+              <div class="content2-inner-1">
+                <h3 class="container-headings">Your Name *</h3>
+                <input type="text" id="contactName" placeholder="e.g. john" required/>
+              </div>
+              <div class="content2-inner-2">
+                <h3 class="container-headings">Email address *</h3>
+                <input type="email" id="contactEmail" placeholder="e.g. abc123@gmail.com" required />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="content3">
+            <img src="./assets/send-logo.png" alt="" width="25px">
+            Submit Report
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="../assets/logo.png" alt="" width="100%">
+        </div>
+        <div class="footer-text">
+            <p>© 2026 Campus Lost & Found. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="report.js"></script>
+  </body>
+</html>

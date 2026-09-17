@@ -1,0 +1,752 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.leaf{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 190px;
+    z-index: -1;
+}
+
+.leaf2{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    top: 540px;
+    z-index: -1;
+}
+
+
+.leaf3{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 1260px;
+    z-index: -1;
+}
+
+.leaf4{
+       width: 800px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    top: 2260px;
+    z-index: -1;
+}
+
+body{
+    background-color: #fffaeb;
+   
+}
+.header{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banners{
+    margin-top: 35px;
+     height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    height: 60px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.banner-first{
+    text-align: center;
+}
+
+.banner-second{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.banner-second button{
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+    margin-left: 10px;
+}
+
+.banner-second button img{
+     width: 15px;
+     height: 15px;
+}
+
+.banner-button{
+    background-color: #f2bf35;
+    border-radius: 28px;
+    border: none;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+.banners2{
+   
+    margin-top: 350px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner2{
+    width: 70vw;
+    background-color:#f2bf35 ;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.banner2-first{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+}
+
+.banner2-first h1{
+    font-weight: bold;
+}
+
+
+
+.banner2-first button{
+    background-color:black;
+    color: white;
+    border-radius: 28px;
+    border: none;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+.banner2-second{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2-second img{
+    width: 350px;
+    height: 400px;
+}
+
+.banners3{
+     margin-top: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.banner3{
+        width: 70vw;
+        height: 365px;
+    background-color:black ;
+    border-radius: 20px;
+    display: flex;
+}
+
+.banner3-first{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+    position: relative;
+}
+
+.banner3-first .box1{
+   width: 180px;
+   height: 190px;
+   background-color: white;
+   border-radius: 12px;
+   padding: 8px 9px;
+   position: absolute;
+   top: 15px;
+   left: 40px;
+}
+
+.banner3-first .box2{
+   width: 180px;
+   height: 190px;
+   background-color:#f2bf35;
+   color: black;
+   border-radius: 12px;
+   padding: 8px 9px;
+    position: absolute;
+   top: 35px;
+   left: 250px;
+}
+
+.banner3-first .box3{
+   width: 180px;
+   height: 190px;
+   background-color:#f2bf35;
+   color: black;
+  border-radius: 12px;
+  padding: 8px 9px;
+  position: absolute;
+   top: 250px;
+   left: 40px;
+}
+
+.banner3-first .box4{
+   width: 180px;
+   height: 190px;
+   background-color:white;
+   
+   border-radius: 12px;
+   padding: 8px 9px;
+   position: absolute;
+   top: 260px;
+   left: 250px;
+}
+
+
+
+.banner3-second{
+     width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+}
+
+.banner3-second h1{
+    color: white;
+    font-weight: bold;
+}
+
+.banner3-second p{
+    color:#f2bf35;
+}
+
+.banner3-second button{
+    
+     background-color:white;
+    color:black;
+    border-radius: 28px;
+    border: none;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+
+.banners4{
+    margin-top: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.banner4{
+    width: 70vw;
+    height: 270px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+}
+
+.banner4-first{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner4-first img{
+    width: 250px;
+    height: 250px;
+}
+
+.banner4-second{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 13px;
+}
+
+.banners5{
+    margin-top: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.banner5{
+      width: 70vw;
+      height: 540px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+}
+
+
+.banner5-first{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.banner5-first button{
+    background-color:#fffaeb;
+    border-radius: 18px;
+    border: none;
+    padding: 10x 10px;
+}
+
+.banner5-first button img{
+     width: 15px;
+     height: 15px;
+}
+
+.banner5-first div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+.banner5-first .banner-button{
+    background-color: #f2bf35;
+    border-radius: 28px;
+    border: none;
+    padding: 15px 40px;
+    font-weight: bold;
+}
+
+
+.banner5-second{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner5-second img{
+    width: 350px;
+    height: 400px;
+}
+
+
+.banners6{
+
+    margin-top: 60px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.banners6 .first{
+    background-color: white;
+    width: 70vw;
+    border-radius: 12px;
+    display: flex;
+  
+    
+    justify-content: space-between;
+    
+    padding: 10px 10px;
+}
+
+
+.banners6 .first1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 15px;
+}
+
+.banners6 .first2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banners7{
+    margin-top: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.banner7{
+      width: 70vw;
+     
+    background-color:black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 20px;
+   
+}
+
+.one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.one .one1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.one .one2{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+     
+}
+
+.one1> h1{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+ .one2 .banner-button{
+    
+    background-color:white;
+    color:black;
+    border-radius: 28px;
+    border: none;
+    padding: 15px 40px;
+    font-weight: bold;
+}
+
+.second{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .leaf, .leaf2, .leaf3, .leaf4 {
+        width: 500px;
+        height: auto;
+    }
+
+    .banner, .banner2, .banner3, .banner4, .banner5, .banner7 {
+        width: 90vw;
+    }
+
+    .banner2-second img,
+    .banner5-second img {
+        width: 250px;
+        height: auto;
+    }
+
+    .banner3 {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .banner3-first {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    
+    .banner3-first .box1,
+    .banner3-first .box2,
+    .banner3-first .box3,
+    .banner3-first .box4 {
+        position: static;
+        margin: 10px auto;
+    }
+
+    .banner3-second {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .banner4 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .banner4-first img {
+        width: 200px;
+        height: auto;
+    }
+
+    .banner2,
+    .banner5 {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .banner2-first,
+    .banner2-second,
+    .banner5-first,
+    .banner5-second {
+        width: 100%;
+        text-align: center;
+    }
+
+    .one {
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .leaf, .leaf2, .leaf3, .leaf4 {
+        width: 300px;
+        height: auto;
+    }
+
+    .banner {
+        width: 90vw;
+    }
+
+    .banner-first h1 {
+        font-size: 22px;
+    }
+
+    .banner-first h3 {
+        font-size: 16px;
+    }
+
+    .banner-second button {
+        
+        justify-content: center;
+    }
+
+    .banner-button{
+    background-color: #f2bf35;
+    border-radius: 28px;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+    .banner2 {
+        margin-top:50px ;
+        width: 90vw;
+    }
+
+    .banner2-second img {
+        width: 200px;
+    }
+
+    .banner3-first {
+        width: 100%;
+    }
+
+    .banner2-first button{
+    background-color:black;
+    color: white;
+    border-radius: 28px;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+
+    .banner3-second button{
+    
+     background-color:white;
+    color:black;
+    border-radius: 28px;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+    .banner4 {
+        
+         width: 70vw;
+    
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    }
+
+    .banner4-first img {
+        
+        width: 180px;
+    }
+
+    .banner5 {
+        width: 90vw;
+    }
+
+    .banner5-second img {
+        width: 230px;
+    }
+
+    .banners6 .first {
+        width: 90vw;
+      
+        text-align: center;
+        gap: 10px;
+    }
+
+    .one {
+        
+        align-items: center;
+        gap: 20px;
+    }
+
+    .one2{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+
+    
+ .one2 .banner-button{
+    
+    background-color:white;
+    color:black;
+    border-radius: 28px;
+    border: none;
+    padding: 13px 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+
+    .leaf, .leaf2, .leaf3, .leaf4 {
+        display: none;
+    }
+
+    .banner-second button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .banner-button {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .banner2-first h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .banner2-second img {
+        width: 160px;
+    }
+
+    .banner5-second img {
+        width: 180px;
+    }
+
+    .banner3-first .box1,
+    .banner3-first .box2,
+    .banner3-first .box3,
+    .banner3-first .box4 {
+        width: 150px;
+        height: auto;
+    }
+
+    .banner4-second h1 {
+        font-size: 22px;
+    }
+
+    .banner7 {
+        padding: 15px;
+    }
+
+    .one1 h1 {
+        font-size: 20px;
+    }
+
+    .second {
+        gap: 5px;
+    }
+}
+
+
